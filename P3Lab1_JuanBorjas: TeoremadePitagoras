@@ -4,7 +4,7 @@ using namespace std;
 int opcion,lado1,lado2,operacion,raiz,resfinal;
 int main (){
     
-    
+    cout<<"hola"<<endl;
     cout<<"---Teorema de pitagoras----"<<endl;
     cout<<"Seleccione Incognita: A/B/C: " <<endl;
     cin>>opcion;
