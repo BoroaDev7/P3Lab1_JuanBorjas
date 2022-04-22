@@ -9,7 +9,7 @@ int main (){
     cout<<"Seleccione Incognita: A/B/C: " <<endl;
     cin>>opcion;
     
-      if(opcion<1 & opcion>3)
+      if(opcion<1 || opcion>3)
 {
     cout<<"Ingrese un numero valido del 1 al 3"<<endl;
     cin>>opcion;
@@ -113,7 +113,7 @@ int main (){
                      cout<<"C = "<<raiz;
                   } else{
                       cout<<"No tiene raiz cuadrada Exacta"<<endl;
-                  }  
+                    }  
               }
          }
      }
